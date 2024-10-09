@@ -1,3 +1,4 @@
+import inspect from "node:util"
 export default class Test {
   static _contadorTestesFalharam = 0
   static _contadorTestesPassaram = 0
