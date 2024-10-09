@@ -25,6 +25,6 @@ export default class Heroi {
         ataque = "ataque desconhecido"
         break
     }
-    console.log(`O ${this.tipo} atacou usando ${ataque}`)
+    return `O ${this.tipo} atacou usando ${ataque}`
   }
 }
