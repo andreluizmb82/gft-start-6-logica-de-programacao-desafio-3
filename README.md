@@ -58,28 +58,64 @@ Bons estudos 😉
 
 ## Solução Proposta
 
-Com o objetivo de desenvolver o desafio proposto, foram criadas soluções em JavaScript, Python e TypeScript.
+Com o objetivo de desenvolver o desafio proposto, foram criadas soluções em JavaScript, Python e TypeScript. Foram feitas duas soluções para o desafio proposto em cada uma das linguagens. Já foi codado as soluções em JavaScript e Python. A solução em TypeScript está em andamento.
+
+Abaixo estão as instruções para executar o código de cada uma das soluções.
 
 ### JavaScript
 
-Para a solução em JavaScript, foi utilizado o Node.js v20.17.0 para rodar o código. Para executar o código da primeira solução proposta, basta abrir o terminal no diretório `js` e digitar o comando:
+Para a solução em JavaScript, foi utilizado o Node.js v20.17.0 para rodar o código.
+
+Para executar o código das soluções propostas, basta abrir o terminal no diretório `./js/src` e digitar os comandos:
 
 ```bash
 node solution_1.mjs
+node solution_2.mjs
+```
+
+Para rodar os testes unitários, basta abrir o terminal no diretório `./js/test` e digitar o comando:
+
+```bash
+node test_solution_1.mjs
+node test_solution_2.mjs
 ```
 
 ### Python
 
-Para a solução em Python, foi utilizado o Python 3.12.6. Para executar o código da primeira solução proposta, basta abrir o terminal no diretório `python` e digitar o comando:
+Para a solução em Python, foi utilizado o Python 3.12.6 para rodar o código.
+
+Para executar o código das soluções propostas, basta abrir o terminal no diretório `./python/src` e digitar os comandos:
+
+No Windows:
 
 ```bash
 python solution_1.py
+python solution_2.py
+```
+
+No Linux:
+
+```bash
+python3 solution_1.py
+python3 solution_2.py
+```
+
+Para rodar os testes unitários, basta abrir o terminal no diretório `./python/test` e digitar o comando:
+
+No Windows:
+
+```bash
+py test_solution_1.py
+py test_solution_2.py
+```
+
+No Linux:
+
+```bash
+python3 test_solution_1.py
+python3 test_solution_2.py
 ```
 
 ### TypeScript
 
-Para a solução em TypeScript, foi utilizado o Node.js v20.17.0 para rodar o código. Para executar o código da solução proposta, basta abrir o terminal no diretório `./ts/dist` e digitar o comando:
-
-```bash
-...
-```
+**_`Ainda esta em desenvolvimento.`_**
