@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Neste repositório você encontrará o primeiro desafio proposto no curso de lógica de programação da GFT Start #6.
+Neste repositório você encontrará o terceiro desafio proposto no curso de lógica de programação da GFT Start #6.
 
 ## Desafio
 
@@ -58,7 +58,7 @@ Bons estudos 😉
 
 ## Solução Proposta
 
-Com o objetivo de desenvolver o desafio proposto, foram criadas soluções em JavaScript, Python e TypeScript. Foram feitas duas soluções para o desafio proposto em cada uma das linguagens. Já foi codado as soluções em JavaScript e Python. A solução em TypeScript está em andamento.
+Com o objetivo de desenvolver o desafio proposto, foram criadas soluções em JavaScript, Python e TypeScript. Foram feitas duas soluções para o desafio proposto em cada uma das linguagens. Já foi códado as soluções em JavaScript e Python. A solução em TypeScript está em andamento.
 
 Abaixo estão as instruções para executar o código de cada uma das soluções.
 
@@ -118,4 +118,18 @@ python3 test_solution_2.py
 
 ### TypeScript
 
-**_`Ainda esta em desenvolvimento.`_**
+Para a solução em TypeScript, foi utilizado o Node.js v20.17.0 para rodar o código. Para executar o código das soluções propostas, basta abrir o terminal no diretório `./ts/dist` e digitar os comandos:
+
+```bash
+node index.js
+```
+
+Para rodar os testes unitários, basta abrir o terminal no diretório `./ts/dist/test/` e digitar o comando:
+
+```bash
+node testHero.js
+```
+
+### Autor
+
+- [@andreluizmb82](https://github.com/andreluizmb82)
