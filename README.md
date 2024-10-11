@@ -118,7 +118,7 @@ python3 test_solution_2.py
 
 ### TypeScript
 
-Para a solução em TypeScript, foi utilizado o Node.js v20.17.0 para rodar o código. Para executar o código das soluções propostas, basta abrir o terminal no diretório `./ts/dist` e digitar os comandos:
+Para a solução em TypeScript, foi utilizado o Node.js v20.17.0 para rodar o código. Para executar o código das soluções propostas, basta abrir o terminal no diretório `./ts/dist` e digitar o comando:
 
 ```bash
 node index.js
@@ -128,6 +128,10 @@ Para rodar os testes unitários, basta abrir o terminal no diretório `./ts/dist
 
 ```bash
 node testHero.js
+```
+
+```bash
+node testHero2.js
 ```
 
 ### Autor
