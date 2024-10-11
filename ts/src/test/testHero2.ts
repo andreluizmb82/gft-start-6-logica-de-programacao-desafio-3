@@ -12,7 +12,7 @@ Test.assertEquals<string>(
   'Testa se guerreiro esta usando o ataque espada',
 );
 Test.assertEquals<string>(
-  'O monge Andre com seus 993 anos de experiência atacou usando artes marciais',
+  'O monge Andre com seus 995 anos de experiência atacou usando artes marciais',
   monge('Andre', 1000),
   'Testa se monge esta usando o ataque artes marciais',
 );
