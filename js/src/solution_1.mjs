@@ -1,5 +1,5 @@
 const TIPO = ["mago", "guerreiro", "monge", "ninja"]
-export default class Heroi {
+export default class Hero {
   constructor(nome, idade, tipo = "mago") {
     this.nome = nome
     this.idade = idade
@@ -29,7 +29,7 @@ export default class Heroi {
   }
 }
 
-console.log(new Heroi("Gandalf", 1000, "mago").atacar())
-console.log(new Heroi("Aragorn", 25, "guerreiro").atacar())
-console.log(new Heroi("Bruce Lee", 30, "monge").atacar())
-console.log(new Heroi("Naruto", 16, "ninja").atacar())
+console.log(new Hero("Gandalf", 1000, "mago").atacar())
+console.log(new Hero("Aragorn", 25, "guerreiro").atacar())
+console.log(new Hero("Bruce Lee", 30, "monge").atacar())
+console.log(new Hero("Naruto", 16, "ninja").atacar())
